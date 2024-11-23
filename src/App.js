@@ -126,8 +126,8 @@ function App() {
             <div className="intro">
               Welcome! I'm Kaleck Hamm, a passionate Full Stack Developer who
               loves creating awesome projects. I work on both front-end and
-              back-end development, using top technologies like React.js, Angular,
-              Node.js and Ionic to build smooth and engaging software that not
+              back-end development, using top technologies like React.js,
+              Node.js, AWS and Python to build smooth and engaging software that not
               only functions perfectly, but also ranks well on search engines.
             </div>
           </div>

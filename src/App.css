@@ -210,15 +210,16 @@ button:hover {
 }
 
 .small {
-  font-size: 16px;
+  font-size: 19px;
   font-weight: 200;
+  font-weight: 600;
 }
 
 .intro {
   text-align: center;
   line-height: 1.5;
   padding: 25px;
-  font-size: 25px;
+  font-size: 26px;
   font-weight: 200;
   width: 75%;
 }
@@ -958,7 +959,7 @@ li {
   }
 
   .small {
-    font-size: 13px;
+    font-size: 14px;
     text-align: center;
     width: 93%;
   }
