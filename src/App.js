@@ -325,13 +325,13 @@ function App() {
               <div className="listContainer">
                 <div className="leftList">
                   <li>Node.Js</li>
-                  <li>MySQL</li>
+                  <li>Python</li>
                   <li>REST</li>
                   <li>SQL</li>
-                  <li>Postman</li>
+                  <li>GraphQL</li>
                 </div>
                 <div className="rightList">
-                  <li>Docker</li>
+                  <li>Docker</li>                  
                   <li>Postgres</li>
                   <li>Prisma</li>
                   <li>Firebase</li>
