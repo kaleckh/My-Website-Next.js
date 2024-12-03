@@ -306,14 +306,12 @@ function App() {
                   <li>CSS</li>
                   <li>TypeScript</li>
                   <li>Javascript</li>
-                  <li>Next.js</li>
-                  <li>React Native</li>
+                  <li>Next.js</li>                  
                 </div>
                 <div className="rightList">
                   <li>Bootstrap</li>
                   <li>Git</li>
-                  <li>Node</li>
-                  <li>SQL</li>
+                  <li>React Native</li>                                    
                 </div>
               </div>
             </div>
@@ -331,10 +329,11 @@ function App() {
                   <li>GraphQL</li>
                 </div>
                 <div className="rightList">
+                  <li>CI/CD</li>                  
+                  <li>Unit Testing</li>                  
                   <li>Docker</li>                  
                   <li>Postgres</li>
-                  <li>Prisma</li>
-                  <li>Firebase</li>
+                  <li>Prisma</li>                  
                 </div>
               </div>
             </div>
