@@ -302,15 +302,16 @@ function App() {
               <div className="frontend">Frontend</div>
               <div className="listContainer">
                 <div className={`leftList`}>
-                  <li>HTML</li>
-                  <li>CSS</li>
+                  <li>Redux</li>
                   <li>TypeScript</li>
                   <li>Javascript</li>
-                  <li>Next.js</li>                  
+                  <li>React.js</li>                  
                 </div>
                 <div className="rightList">
+                  <li>HTML</li>                  
                   <li>Bootstrap</li>
-                  <li>Git</li>
+                  <li>Tailwind CSS</li>
+                  <li>Jest</li>
                   <li>React Native</li>                                    
                 </div>
               </div>
