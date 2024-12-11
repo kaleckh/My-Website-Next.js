@@ -20,6 +20,7 @@ import AlienCafe from "./photos/AlienCafe.png";
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { Github } from "./media/Github";
+import axios from "axios";
 import { useState, useEffect } from "react";
 
 function App() {
@@ -78,6 +79,18 @@ function App() {
       );
     e.target.reset();
   };
+
+  useEffect(() => {
+    getData()
+  }, [])
+
+  const getData = async () => {
+    const res = await axios.get("https://api.ipify.org/?format=json");
+    console.log(await res.data);
+    // setIP(res.data.ip);
+  };
+
+
 
 
 
@@ -198,7 +211,7 @@ function App() {
                       I built a fully functional Twitter-inspired app using React Native for the front end and Next.js for the back end, with a PostgreSQL database. It’s got all the core features—tweeting, liking, commenting, and real-time updates—packed into a nice design. This project was a great way to push my skills in full-stack development and show how I can take a complex idea and bring it to life. Feel free to check out the code and see how I tackled challenges like data management and user interactions.
                     </div>
                     <div style={{ padding: "8px" }} className="small">
-                    React Native |Python | FastAPI | TypeScript | SQLAlchemy | WebSockets | Postgres 
+                      React Native |Python | FastAPI | TypeScript | SQLAlchemy | WebSockets | Postgres
                     </div>
                   </div>
                 </div>
@@ -305,14 +318,14 @@ function App() {
                   <li>Redux</li>
                   <li>TypeScript</li>
                   <li>Javascript</li>
-                  <li>React.js</li>                  
+                  <li>React.js</li>
                 </div>
                 <div className="rightList">
-                  <li>HTML</li>                  
+                  <li>HTML</li>
                   <li>Bootstrap</li>
                   <li>Tailwind CSS</li>
                   <li>Jest</li>
-                  <li>React Native</li>                                    
+                  <li>React Native</li>
                 </div>
               </div>
             </div>
@@ -330,11 +343,11 @@ function App() {
                   <li>GraphQL</li>
                 </div>
                 <div className="rightList">
-                  <li>CI/CD</li>                  
-                  <li>Unit Testing</li>                  
-                  <li>Docker</li>                  
+                  <li>CI/CD</li>
+                  <li>Unit Testing</li>
+                  <li>Docker</li>
                   <li>Postgres</li>
-                  <li>Prisma</li>                  
+                  <li>Prisma</li>
                 </div>
               </div>
             </div>
