@@ -91,7 +91,7 @@ function App() {
       const res = await axios.get("https://api.ipify.org/?format=json");      
 
       try {
-        await fetch(`${process.env.REACT_APP_DB_KEY}`, {
+        await fetch(`${process.env.REACT_APP_DB_KEY}/api/personal/trackKaleUsers`, {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
