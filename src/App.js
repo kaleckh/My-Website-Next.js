@@ -89,19 +89,17 @@ function App() {
     try {
       const res = await axios.get("https://api.ipify.org/?format=json");
       console.log(res.data, "my ip");
-  
-      const db = await axios.post(`${process.env.REACT_APP_IP}`, {
+
+      const db = await axios.post(`social-mobile-server.vercel.app/api/personal/trackKaleUsers`, {
         ip: res.data
       });
-  
-      console.log(db.data, "response from server");
     } catch (error) {
       console.error("Error fetching data:", error);
     }
   };
-  
 
-  // social-mobile-server.vercel.app/api/personal/trackKaleUsers
+
+
 
 
 
