@@ -90,16 +90,28 @@ function App() {
       const res = await axios.get("https://api.ipify.org/?format=json");
       console.log(res.data, "my ip");
 
-      const db = await axios.post(`https://social-mobile-server.vercel.app/api/personal/trackKaleUsers`, {
-        ip: res.data
-      });
+      try {
+        await fetch(`https://social-mobile-server.vercel.app/api/personal/trackKaleUsers`, {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            ip: res.data.ip,
+          }),
+        });
+
+      } catch (error) {
+        console.log(error, "this is the delete post error");
+
+      }
       console.log('worked')
     } catch (error) {
       console.error("Error fetching data:", error);
     }
   };
 
-
+  
 
 
 
