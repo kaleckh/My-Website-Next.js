@@ -90,9 +90,10 @@ function App() {
       const res = await axios.get("https://api.ipify.org/?format=json");
       console.log(res.data, "my ip");
 
-      const db = await axios.post(`social-mobile-server.vercel.app/api/personal/trackKaleUsers`, {
+      const db = await axios.post(`https://social-mobile-server.vercel.app/api/personal/trackKaleUsers`, {
         ip: res.data
       });
+      console.log('worked')
     } catch (error) {
       console.error("Error fetching data:", error);
     }
