@@ -90,7 +90,7 @@ function App() {
       const res = await axios.get("https://api.ipify.org/?format=json");
       console.log(res.data, "my ip");
   
-      const db = await axios.post(`${REACT_APP_IP}`, {
+      const db = await axios.post(`${prcoess.env.REACT_APP_IP}`, {
         ip: res.data
       });
   
