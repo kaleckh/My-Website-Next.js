@@ -87,11 +87,10 @@ function App() {
 
   const getData = async () => {
     try {
-      const res = await axios.get("https://api.ipify.org/?format=json");
-      console.log(res.data, "my ip");
+      const res = await axios.get("https://api.ipify.org/?format=json");      
 
       try {
-        await fetch(`https://social-mobile-server.vercel.app/api/personal/trackKaleUsers`, {
+        await fetch(`${process.env.REACT_APP_DB_KEY}`, {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
@@ -112,7 +111,7 @@ function App() {
   };
 
   
-
+  // https://social-mobile-server.vercel.app/api/personal/trackKaleUsers
 
 
 
