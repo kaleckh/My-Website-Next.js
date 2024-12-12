@@ -82,6 +82,7 @@ function App() {
 
   useEffect(() => {
     getData()
+    console.log(process.env, 'env data')
   }, [])
 
 
