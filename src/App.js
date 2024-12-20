@@ -17,6 +17,7 @@ import { useInView } from "react-intersection-observer";
 import firstProject from "./photos/copiers.webp";
 import SocialMobile from "./photos/twitter.png";
 import AlienCafe from "./photos/AlienCafe.png";
+import me from "./photos/me.jpg";
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { Github } from "./media/Github";
@@ -158,12 +159,17 @@ function App() {
               <div className="line"></div>
             </div>
           </div>
+          <img
+            src={me}
+            new={"workCard"}
+            className="project"
+            style={{position: 'absolute', top: 5, left: -30}}
+          />
           <div className="mainScreenRight">
             <div className="sectionOneFont">Hi! im Kaleck</div>
-
             <div className="headerWord">I'm a full stack Software Engineer</div>
             <div className="intro">
-            I build apps with tech like React.js, Node.js, AWS, and Python. Check out my projects below to see what I’ve been working on!
+              I build apps with tech like React.js, Node.js, AWS, TypeScript and Python. Check out my projects below to see what I’ve been working on!
             </div>
           </div>
         </div>
@@ -234,7 +240,7 @@ function App() {
                     </div>
                     <div style={{ padding: "8px" }} className="small">
                       React Native | Python | FastAPI | TypeScript | SQLAlchemy | WebSockets | Postgres
-                    </div> 
+                    </div>
                   </div>
                 </div>
                 <div className="middle">
@@ -419,7 +425,7 @@ function App() {
         </form>
         <div className="footer">
           <div className="name">Kaleck</div>
-          <div className="footerSections">            
+          <div className="footerSections">
             <a href="#skills" className="footerSection">
               Skills
             </a>
