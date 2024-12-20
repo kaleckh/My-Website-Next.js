@@ -163,7 +163,7 @@ function App() {
             src={me}
             new={"workCard"}
             className="project"
-            style={{position: 'absolute', top: 5, left: -30}}
+            style={{position: 'absolute', top: 60, left: -30}}
           />
           <div className="mainScreenRight">
             <div className="sectionOneFont">Hi! im Kaleck</div>
