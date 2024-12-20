@@ -162,8 +162,8 @@ function App() {
           <img
             src={me}
             new={"workCard"}
-            className="project"
-            style={{position: 'absolute', top: 60, left: -30}}
+            className="myPic"
+            // style={{ position: 'absolute', top: 20, left: -30 }}
           />
           <div className="mainScreenRight">
             <div className="sectionOneFont">Hi! im Kaleck</div>

@@ -107,8 +107,8 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
-  height: 50%;
+  justify-content: flex-start;
+  height: 100%;
   width: 100%;
 }
 
@@ -128,18 +128,22 @@ html {
 }
 
 .paragraph {
-  font-weight: 300;
-  font-size: 23px;
+  font-weight: 400;
+  opacity: .8;
+  font-size: 18px;
   padding: 15px;
+  line-height: 30px;
   text-align: center;
   width: 650px;
+  min-height: 150px;
+  height: fit-content;
 }
 
 .section {
   display: flex;
   height: fit-content;
   width: 100%;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
 }
 
 .sectionFour {
@@ -622,6 +626,15 @@ li {
   transform: translateX(0);
 }
 
+.myPic{  
+  position: absolute;  
+  height: 350px;
+  width: 175px;
+  top: 30px;
+  left: 150px;
+}
+
+
 @media (width < 1600px) {
   .row{
     flex-direction: column;
@@ -895,7 +908,7 @@ li {
     height: 200px;
   }
   .section {
-    height: 70vh;
+    height: 90vh;
   }
   .photoTitle {
     font-size: 30px;
@@ -1029,6 +1042,20 @@ li {
     font-size: 18px;
     width: 450px;
   }
+  .myPic{
+    top: 50px;
+    left: 35%;
+  }
+  .headerWord{
+    display: none;
+  }
+  .largerText{
+    display: none;
+  }
+  .intro{
+    width: 90%;
+  }
+  
 }
 
 
