@@ -419,10 +419,7 @@ function App() {
         </form>
         <div className="footer">
           <div className="name">Kaleck</div>
-          <div className="footerSections">
-            <a href="#section-2" className="footerSection">
-              Photos
-            </a>
+          <div className="footerSections">            
             <a href="#skills" className="footerSection">
               Skills
             </a>
