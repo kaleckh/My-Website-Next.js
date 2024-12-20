@@ -218,6 +218,7 @@ button:hover {
   font-size: 19px;
   font-weight: 200;
   font-weight: 600;
+  opacity: .95;
 }
 
 .intro {
@@ -440,7 +441,8 @@ a {
   justify-content: center;
 }
 .title{
-  font-size: 30px
+  font-size: 30px;
+  opacity: .9;
 }
 
 .wholeScreen {
