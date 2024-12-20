@@ -54,7 +54,8 @@ html {
 
 .headerWord {
   font-weight: 300;
-  font-size: 25px;
+  font-size: 22px;
+  opacity: .7;
 }
 
 .headerContainer {
@@ -180,9 +181,10 @@ button:hover {
 }
 
 .sectionOneFont {
-  font-size: 110px;
+  font-size: 100px;
   font-weight: 250;
   margin-top: 150px;
+  opacity: .9;
 }
 
 .two {
@@ -224,9 +226,10 @@ button:hover {
   text-align: center;
   line-height: 1.5;
   padding: 25px;
-  font-size: 27px;
+  font-size: 25px;
   font-weight: 300;
   width: 60%;
+  opacity: .85;
 }
 
 .acontainer {
