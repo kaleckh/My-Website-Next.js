@@ -54,7 +54,7 @@ html {
 
 .headerWord {
   font-weight: 300;
-  font-size: 35px;
+  font-size: 25px;
 }
 
 .headerContainer {
@@ -219,8 +219,8 @@ button:hover {
   text-align: center;
   line-height: 1.5;
   padding: 25px;
-  font-size: 26px;
-  font-weight: 200;
+  font-size: 27px;
+  font-weight: 300;
   width: 75%;
 }
 

@@ -59,6 +59,8 @@ function App() {
       debugger;
     }
   }, [inView, inViewTop]);
+
+
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -88,7 +90,7 @@ function App() {
 
   const getData = async () => {
     try {
-      const res = await axios.get("https://api.ipify.org/?format=json");      
+      const res = await axios.get("https://api.ipify.org/?format=json");
 
       try {
         await fetch(`${process.env.REACT_APP_DB_KEY}/api/personal/trackKaleUsers`, {
@@ -111,7 +113,7 @@ function App() {
     }
   };
 
-  
+
   // https://social-mobile-server.vercel.app/api/personal/trackKaleUsers
 
 
@@ -161,11 +163,7 @@ function App() {
 
             <div className="headerWord">I'm a full stack Software Engineer</div>
             <div className="intro">
-              Welcome! I'm Kaleck Hamm, a passionate Full Stack Developer who
-              loves creating awesome projects. I work on both front-end and
-              back-end development, using top technologies like React.js,
-              Node.js, AWS and Python to build smooth and engaging software that not
-              only functions perfectly, but also ranks well on search engines.
+            I build apps with tech like React.js, Node.js, AWS, and Python. Check out my projects below to see what I’ve been working on!
             </div>
           </div>
         </div>
@@ -235,8 +233,8 @@ function App() {
                       I built a fully functional Twitter-inspired app using React Native for the front end and Next.js for the back end, with a PostgreSQL database. It’s got all the core features—tweeting, liking, commenting, and real-time updates—packed into a nice design. This project was a great way to push my skills in full-stack development and show how I can take a complex idea and bring it to life. Feel free to check out the code and see how I tackled challenges like data management and user interactions.
                     </div>
                     <div style={{ padding: "8px" }} className="small">
-                      React Native |Python | FastAPI | TypeScript | SQLAlchemy | WebSockets | Postgres
-                    </div>
+                      React Native | Python | FastAPI | TypeScript | SQLAlchemy | WebSockets | Postgres
+                    </div> 
                   </div>
                 </div>
                 <div className="middle">
