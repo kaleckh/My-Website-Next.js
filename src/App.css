@@ -1066,7 +1066,7 @@ li {
 @media (width < 450px) { 
   .paragraph{
     font-size: 15px;
-    width: 95%;
+    width: 90%;
     line-height: 23px;
   }
 }
