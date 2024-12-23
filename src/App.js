@@ -163,7 +163,7 @@ function App() {
             src={me}
             new={"workCard"}
             className="myPic"
-            // style={{ position: 'absolute', top: 20, left: -30 }}
+          // style={{ position: 'absolute', top: 20, left: -30 }}
           />
           <div className="mainScreenRight">
             <div className="sectionOneFont">Hi! im Kaleck</div>
@@ -209,7 +209,7 @@ function App() {
                   <div className={`stuff ${cssPhoto}`}>
                     <div className="title">AlienCafe</div>
                     <div className="paragraph">
-                      AlienCafe is a social discussion platform built with Ionic React,  designed to create debates around thesis driven arguments. It allows users to share ideas through structured posts, vote on those ideas, and debate on the truthfulness.
+                    I created AlienCafe, a social discussion platform built with Ionic React, designed for debates on thesis-driven arguments. Users can share ideas through structured posts, vote on their validity, and engage in discussions to evaluate truthfulness. This project highlights my skills in building interactive platforms that encourage meaningful user engagement and critical thinking.
                     </div>
                     <div style={{ padding: "8px" }} className="small">
                       React Ionic  | TypeScript | Next.js | Supabase | Postgres | REST | Prisma | Quill.js | WebSockets
@@ -258,13 +258,7 @@ function App() {
                   <div className={`stuff ${cssPhoto}`}>
                     <div className="title">CopiersUtah.com</div>
                     <div className="paragraph">
-                      The website I created for Copiers Utah is all about making
-                      life easier for their customers. It provides a clear,
-                      organized view of everything the company offers, from detailed
-                      product information to a simple quote request form. It’s
-                      designed to help users navigate the copier buying process with
-                      confidence, making it easier for them to find the right fit
-                      and reach out for a quote.
+                      I built a website for Copiers Utah designed to simplify the customer experience. The site features an intuitive layout that presents detailed product information and includes a straightforward quote request form. It’s all about making the copier buying process seamless and accessible, helping users confidently find the right fit and reach out for more information. This project highlights my ability to create user-friendly designs that meet both business and customer needs.
                     </div>
                     <div style={{ padding: "8px" }} className="small">
                       Next.js | Javascript | CSS | HTML
@@ -288,13 +282,7 @@ function App() {
                 <div ref={refPhoto} className={`stuff ${cssPhoto}`}>
                   <div className="title">Jukify</div>
                   <div className="paragraph">
-                    I developed a Spotify Jukebox web app that makes music more
-                    social. Users can hop into rooms, add their favorite tracks,
-                    and vote on what should play next, turning playlist creation
-                    into a fun, collaborative process. Thanks to the integration
-                    with Spotify’s API, the app allows for real-time song
-                    additions and voting, so the playlist always matches the mood
-                    of the room.
+                  I created a Spotify Jukebox web app that transforms music listening into a social experience. Users can join rooms, add their favorite songs, and vote on what plays next, making playlist creation collaborative and fun. Using Spotify’s API, the app supports real-time song additions and voting to ensure the playlist matches the room’s vibe. This project showcases my skills in API integration and building dynamic, real-time features for an engaging user experience.
                   </div>
                   <div style={{ padding: "8px" }} className="small">
                     Next.js | Javascript | CSS | HTML | Sockets.io | Spotify API
@@ -316,11 +304,7 @@ function App() {
                 <div className={`stuff ${cssPhoto}`}>
                   <div className="title">React Ionic Messaging</div>
                   <div className="paragraph">
-                    I built a real-time messaging feature for iOS and Android apps
-                    using React Ionic, TypeScript, and WebSockets. The goal was to
-                    create a seamless chat experience that feels effortless for
-                    users. It ensures that people can connect instantly, whether
-                    they’re chatting socially or seeking help.
+                  I developed a real-time messaging feature for iOS and Android apps using React Ionic, TypeScript, and WebSockets. The feature delivers a seamless chat experience, allowing users to connect instantly for casual conversations or support needs. This project demonstrates my ability to build efficient, real-time communication systems while focusing on user-friendly design and reliable performance.
                   </div>
                   <div style={{ padding: "8px" }} className="small">
                     React Ionic | TypeScript | CSS | HTML | WebSockets
