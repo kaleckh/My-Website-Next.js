@@ -1044,11 +1044,11 @@ li {
 @media (width < 700px) { 
   .paragraph{
     font-size: 18px;
-    width: 450px;
+    width: 90%;
   }
   .myPic{
     top: 50px;
-    left: 35%;
+    left: 28%;
   }
   .headerWord{
     display: none;
@@ -1065,7 +1065,8 @@ li {
 
 @media (width < 450px) { 
   .paragraph{
-    font-size: 16px;
-    width: 350px;
+    font-size: 15px;
+    width: 95%;
+    line-height: 23px;
   }
 }
