@@ -236,7 +236,7 @@ function App() {
                   <div className={`stuff ${cssPhoto}`}>
                     <div className="title">Twitter Dupe</div>
                     <div className="paragraph">
-                      I built a fully functional Twitter-inspired app using React Native for the front end and Next.js for the back end, with a PostgreSQL database. It’s got all the core features—tweeting, liking, commenting, and real-time updates—packed into a nice design. This project was a great way to push my skills in full-stack development and show how I can take a complex idea and bring it to life. Feel free to check out the code and see how I tackled challenges like data management and user interactions.
+                      I built a fully functional Twitter-inspired app using React Native for the front end and Next.js for the back end, with a PostgreSQL database. It’s got all the core features—tweeting, liking, commenting, and real-time updates—packed into a nice design. This project was a great way to push my skills in full-stack development and show how I can take a complex idea and bring it to life.
                     </div>
                     <div style={{ padding: "8px" }} className="small">
                       React Native | Python | FastAPI | TypeScript | SQLAlchemy | WebSockets | Postgres
@@ -282,7 +282,7 @@ function App() {
                 <div ref={refPhoto} className={`stuff ${cssPhoto}`}>
                   <div className="title">Jukify</div>
                   <div className="paragraph">
-                  I created a Spotify Jukebox web app that transforms music listening into a social experience. Users can join rooms, add their favorite songs, and vote on what plays next, making playlist creation collaborative and fun. Using Spotify’s API, the app supports real-time song additions and voting to ensure the playlist matches the room’s vibe. This project showcases my skills in API integration and building dynamic, real-time features for an engaging user experience.
+                  We created a Spotify Jukebox web app that transforms music listening into a social experience. Users can join rooms, add their favorite songs, and vote on what plays next, making playlist creation collaborative and fun. Using Spotify’s API, the app supports real-time song additions and voting to ensure the playlist matches the room’s vibe. This project showcases my skills in API integration and building dynamic, real-time features for an engaging user experience.
                   </div>
                   <div style={{ padding: "8px" }} className="small">
                     Next.js | Javascript | CSS | HTML | Sockets.io | Spotify API
